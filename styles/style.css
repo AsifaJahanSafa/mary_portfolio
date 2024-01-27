@@ -14,6 +14,9 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+body section{
+    margin-top:130px
+}
 .primary-color{
     background: #FD6E0A;}
 
@@ -144,3 +147,83 @@ margin:130px 0px}
     font-weight: 400;
     }
 .about-info-description{    font-weight: 700;}
+
+/* what-i-do-section start */
+
+#what-i-do-description{
+   
+   padding:30px 150px
+
+}
+
+/* skill section */
+.skill-container{display: flex;
+                gap:30px}
+
+.skill{
+    padding:30px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title{
+    margin:20px 0px;
+    color:#181818;
+font-size: 20px;
+font-weight: 700;
+
+
+
+}
+
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* resume-container */
+.resume-column h3{
+        color:#474747;
+        font-size: 30px;
+        font-weight: 700;
+
+}
+
+.resume-container{
+    display: flex;
+    gap:50px;
+    margin-top:113px;
+    margin-bottom: 0px;
+}
+
+.resume-colum-title{
+    margin-top:30px;
+    margin-bottom: 10px;
+    color:#474747;
+
+font-size: 25px;
+font-weight: 700;;
+}
+
+
+.resume-institule{color:#757575;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 30px
+;}
+
+.resume-container hr{
+    margin:30px 0px
+}
+
+.download-cv{
+    text-align: center;
+    margin-top:50px;
+    font-size: 20px;
+
+font-weight: 700;
+}
