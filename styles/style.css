@@ -262,7 +262,7 @@ font-weight: 700;}
     margin-right: 24px;
 }
 
-.Contact input[type="text"],input[type="email"],textarea{
+.Contact input[type="text"],.Contact input[type="email"],textarea{
     display: block;
     margin-bottom: 24px;
     padding:18px 30px;
