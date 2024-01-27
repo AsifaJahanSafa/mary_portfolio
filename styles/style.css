@@ -227,3 +227,49 @@ margin-bottom: 30px
 
 font-weight: 700;
 }
+/* footer section */
+footer{
+    display: flex;
+    gap:50px;
+    padding: 130px 230px;
+    background: #FFF8F3;
+    margin-top: 113px;
+}
+
+
+.footer-column{
+    width:50%;
+}
+.footer-column-title{
+color:#181818;
+margin:0;
+font-size: 35px;
+margin-bottom: 20px;
+font-weight: 700;}
+
+
+.footer-column p{color:#474747;
+    font-size: 16px;
+    font-weight: 400;
+    }
+
+.social-icon{
+    margin-top: 30px;
+  
+}
+
+.social-icon a{
+    margin-right: 24px;
+}
+
+.Contact input[type="text"],input[type="email"],textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding:18px 30px;
+    color: #757575;font-size: 16px;
+font-style: normal;
+font-weight: 400;
+width: 100%;
+border:none;
+border-radius: 5px;
+}
